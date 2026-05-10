@@ -766,6 +766,25 @@ main {
 
 .article-title { margin-bottom: 30px; }
 
+.resume-document iframe {
+  display: block;
+  width: 100%;
+  min-height: 75vh;
+  border: 1px solid var(--jet);
+  border-radius: 8px;
+  background: var(--eerie-black-2);
+}
+
+.resume-document-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--vegas-gold);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+}
+
+.resume-document-link:hover { color: var(--orange-yellow-crayola); }
+
 
 /**
  * education and experience 
